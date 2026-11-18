@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 420" role="img" aria-labelledby="t d">
+  <title id="t">Lyra, guardiã das florestas</title><desc id="d">Retrato ilustrado de uma patrulheira élfica diante de pinheiros ao entardecer.</desc>
+  <defs><linearGradient id="bg" y2="1"><stop stop-color="#76815a"/><stop offset=".55" stop-color="#384d3b"/><stop offset="1" stop-color="#1e2824"/></linearGradient><linearGradient id="cloak" x2="1" y2="1"><stop stop-color="#637354"/><stop offset="1" stop-color="#283a30"/></linearGradient><radialGradient id="skin"><stop stop-color="#e5c69c"/><stop offset="1" stop-color="#b48565"/></radialGradient></defs>
+  <path fill="url(#bg)" d="M0 0h320v420H0z"/><circle cx="222" cy="87" r="53" fill="#d2bd8f" opacity=".72"/><g fill="#1a2b25" opacity=".78"><path d="M0 325 47 110l44 215zm55 22L111 90l55 257zm133-4 47-212 48 212zm70 20 34-154 31 154z"/></g><path fill="#253b30" d="M0 346q87-50 167-3t153-7v84H0z"/>
+  <path fill="url(#cloak)" d="M33 420q14-123 88-147h76q72 28 92 147z"/><path fill="#8f6f4d" d="m118 277 42 39 43-40 34 24-34 92-43-39-42 39-35-92z"/>
+  <path fill="url(#skin)" d="M115 171q-7-71 45-82 56 10 47 83l-12 66q-15 32-37 32t-38-32z"/><path fill="#543c30" d="M110 173q-26-99 50-111 82 7 66 103l-22-38-14-29q-31 28-76 26z"/><path fill="#70503a" d="m112 143-33 29 39-6m88-18 35 22-40-3"/><path fill="#d7b27a" d="m117 144-31 26 34-12m83-13 32 20-38-9"/>
+  <path d="M131 168q11-8 22 0m33 0q11-8 22 0" stroke="#302c26" stroke-width="5" fill="none"/><circle cx="144" cy="170" r="3" fill="#d7b270"/><circle cx="197" cy="170" r="3" fill="#d7b270"/><path d="M157 195q8 5 17 0" fill="none" stroke="#7d4e44" stroke-width="3" stroke-linecap="round"/>
+  <path fill="#433329" d="M121 216q39 20 79-1l-5 35-36 31-35-29z"/><path fill="#b58b5d" d="M159 246h15v71h-15z"/><circle cx="166" cy="274" r="7" fill="#d1b574"/><path d="M48 372q40-41 63-57m170 64-49-67" fill="none" stroke="#c8aa70" stroke-width="3" opacity=".65"/>
+  <path fill="none" stroke="#dcc48f" stroke-opacity=".44" d="M15 15h36M15 15v36m254-36h36m0 0v36M15 369v36m0 0h36m254-36v36m0 0h-36"/>
+</svg>

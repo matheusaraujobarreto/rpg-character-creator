@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">A fortaleza das Crônicas</title>
+  <desc id="desc">Uma fortaleza medieval iluminada por tochas ergue-se entre montanhas sob um céu noturno.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#171311"/><stop offset=".48" stop-color="#45212a"/><stop offset="1" stop-color="#211813"/></linearGradient>
+    <radialGradient id="moonlight"><stop stop-color="#d4a76b" stop-opacity=".4"/><stop offset="1" stop-color="#d4a76b" stop-opacity="0"/></radialGradient>
+    <linearGradient id="stone" x2="1" y2="1"><stop stop-color="#6a5140"/><stop offset=".45" stop-color="#3a2b26"/><stop offset="1" stop-color="#211b19"/></linearGradient>
+    <linearGradient id="road" x2="0" y2="1"><stop stop-color="#8c6744" stop-opacity=".45"/><stop offset="1" stop-color="#b38652" stop-opacity="0"/></linearGradient>
+    <linearGradient id="fog"><stop stop-color="#c4ad8d" stop-opacity="0"/><stop offset=".5" stop-color="#c4ad8d" stop-opacity=".22"/><stop offset="1" stop-color="#c4ad8d" stop-opacity="0"/></linearGradient>
+    <pattern id="brick" width="74" height="36" patternUnits="userSpaceOnUse"><path d="M0 35.5H74M37 0v17M0 18h74M18 18v17M56 18v17" fill="none" stroke="#c49a69" stroke-opacity=".12" stroke-width="1"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="9"/></filter>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1600v1000H0z"/>
+  <circle cx="1030" cy="330" r="360" fill="url(#moonlight)"/>
+  <circle cx="1030" cy="330" r="78" fill="#d6bf93" opacity=".68"/>
+  <circle cx="1060" cy="309" r="76" fill="#43232a" opacity=".68"/>
+  <g fill="#efd5a4" opacity=".56"><circle cx="190" cy="150" r="2"/><circle cx="322" cy="269" r="1.5"/><circle cx="485" cy="110" r="2"/><circle cx="1290" cy="178" r="1.5"/><circle cx="1438" cy="320" r="2"/><circle cx="118" cy="378" r="1.4"/><circle cx="750" cy="190" r="1.2"/><circle cx="1370" cy="80" r="1.5"/></g>
+  <path fill="#241d20" d="m0 590 175-155 116 72 167-194 161 186 172-164 147 166 153-218 149 185 147-127 215 166v393H0z"/>
+  <path fill="#34252a" opacity=".85" d="m0 666 220-134 138 91 174-196 128 132 147-126 153 149 165-181 156 155 136-96 183 114v326H0z"/>
+  <path fill="#171613" d="M0 735q230-119 422-18 190-123 383-3 187-95 347-1 205-126 448 12v275H0z"/>
+  <ellipse cx="812" cy="742" rx="510" ry="72" fill="url(#fog)" filter="url(#soft)"/>
+  <g id="fortress">
+    <path fill="url(#stone)" d="M398 685V478l75-48 75 48v207zm580 0V478l75-48 75 48v207z"/>
+    <path fill="url(#brick)" d="M398 685V478l75-48 75 48v207zm580 0V478l75-48 75 48v207z"/>
+    <path fill="#49362e" d="M382 488h183v-26h-19v-37h-28v37h-84v-37h-28v37h-24zM962 488h183v-26h-19v-37h-28v37h-84v-37h-28v37h-24z"/>
+    <path fill="#735746" d="M468 430v-57l80-85 80 85v57zM928 430v-57l80-85 80 85v57z"/>
+    <path fill="#382722" d="M473 372h150v9H473zM933 372h150v9H933z"/>
+    <path fill="#5b4437" d="M484 685V422h468v263z"/>
+    <path fill="url(#brick)" d="M484 685V422h468v263z"/>
+    <path fill="#32251f" d="M450 446h536v-30h-33v-35h-30v35h-88v-35h-30v35h-83v-35h-30v35h-86v-35h-30v35h-33z"/>
+    <path fill="#6d4c37" d="M626 422V310l92-73 92 73v112z"/>
+    <path fill="url(#brick)" d="M626 422V310l92-73 92 73v112z"/>
+    <path fill="#3a2722" d="M612 316h212v-24h-28v-37h-31v37h-94v-37h-31v37h-28z"/>
+    <path fill="#a66f42" opacity=".8" d="M677 422v-86a41 41 0 0 1 82 0v86z"/>
+    <path fill="#211a18" d="M690 422v-83a28 28 0 0 1 56 0v83z"/>
+    <path fill="#e3a45b" opacity=".8" d="M704 422v-57a14 14 0 0 1 28 0v57z"/>
+    <path fill="#33231f" d="M526 490h30v50h-30zm350 0h30v50h-30zM542 572h30v50h-30zm318 0h30v50h-30zM684 464h28v48h-28zm97 0h28v48h-28z"/>
+    <path fill="#d69a54" d="M534 499h14v31h-14zm350 0h14v31h-14zM692 472h12v31h-12zm97 0h12v31h-12z"/>
+    <path fill="#31221d" d="M690 685V584q0-78 85-78t85 78v101z"/>
+    <path fill="#68452f" d="M714 685V590q0-57 61-57t61 57v95z"/>
+    <path fill="#211a18" d="M735 685V598q0-39 40-39t40 39v87z"/>
+    <path fill="#c38b4f" opacity=".6" d="M760 614h30v71h-30z"/>
+    <path fill="#76533a" d="M378 686h792l-48 28H426z"/>
+  </g>
+  <g fill="#1a1714">
+    <path d="M0 1000V740l38-113 38 113v260zm58 0V782l25-73 25 73v218zm1430 0V744l38-117 38 117v256zm57 0V784l26-79 27 79v216z"/>
+    <path d="M196 1000V824l28-81 29 81v176zm1180 0V830l27-80 29 80v170z"/>
+  </g>
+  <path d="M760 673q52 8 93 0l410 327H337z" fill="url(#road)"/>
+  <g>
+    <circle cx="400" cy="673" r="26" fill="#d58b44" opacity=".48" filter="url(#glow)"/>
+    <path fill="#6d422c" d="M395 680h10v42h-10z"/><path fill="#e6b76b" d="M400 643q20 20 0 32-18-11 0-32z"/>
+    <circle cx="1160" cy="673" r="26" fill="#d58b44" opacity=".48" filter="url(#glow)"/>
+    <path fill="#6d422c" d="M1155 680h10v42h-10z"/><path fill="#e6b76b" d="M1160 643q20 20 0 32-18-11 0-32z"/>
+  </g>
+  <path fill="url(#fog)" d="M0 755q245-46 481 6 227 49 462-4t657 4v72H0z"/>
+  <path fill="#171310" opacity=".35" d="M0 0h1600v1000H0z"/>
+</svg>

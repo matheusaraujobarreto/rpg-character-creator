@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#171310" />
+    <meta name="description" content="Abra o grimório e entre no salão de aventuras de Crônicas." />
+    <title>O chamado — Crônicas</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body class="login-page">
+    <main class="login-world">
+      <img class="login-castle" src="assets/images/Arquivo Medieval à Luz Dourada.png" alt="Arquivo medieval com mapas e livros iluminados por uma janela dourada" />
+      <div class="login-vignette" aria-hidden="true"></div>
+      <div class="login-mist mist-one" aria-hidden="true"></div><div class="login-mist mist-two" aria-hidden="true"></div>
+      <a class="login-brand" href="index.html" aria-label="Crônicas">
+        <span class="brand-seal" aria-hidden="true"><svg viewBox="0 0 36 36"><path d="M18 3 31 10v16l-13 7L5 26V10z"/><path d="M18 8v20M10 12l8-4 8 4-8 5zM10 23l8-5 8 5-8 5z"/><circle cx="18" cy="17" r="2"/></svg></span>
+        <span class="brand-word">CRÔNICAS<small>GRIMÓRIO DO AVENTUREIRO</small></span>
+      </a>
+      <div class="login-edition">✦ <span>UMA JORNADA COMEÇA</span> ✦</div>
+      <section class="login-composition" aria-label="Entrada demonstrativa">
+        <div class="portal-copy">
+          <p class="eyebrow-light"><span></span> ÀS PORTAS DE VALDORA <span></span></p>
+          <h1>Há histórias<br />que esperam por<br /><em>um nome.</em></h1>
+          <p class="portal-description">Atravesse o portão. Reúna sua companhia. Escreva a primeira página do que ainda virá.</p>
+          <div class="portal-crest" aria-hidden="true"><span class="crest-orbit"></span><svg viewBox="0 0 100 100"><path d="M50 7 82 25v50L50 93 18 75V25z"/><path d="M50 19v60M34 32l16-11 16 11-16 12zM34 67l16-23 16 23-16 13z"/><circle cx="50" cy="44" r="5"/></svg></div>
+          <span class="portal-caption">O CAMINHO É SEU PARA ESCOLHER</span>
+        </div>
+
+        <div class="login-book" id="login-book">
+          <div class="book-spine" aria-hidden="true"></div>
+          <div class="book-content">
+            <p class="eyebrow">ABRA SEU GRIMÓRIO</p>
+            <h2>Entre, aventureiro.</h2>
+            <p class="book-intro">A mesa está posta. Seu próximo capítulo começa aqui.</p>
+            <div class="demo-seal"><span>PRÉVIA</span><b>DEMONSTRATIVA</b><small>Sem conta ou autenticação real</small></div>
+            <form class="login-form" id="demo-login" action="index.html" method="post" novalidate>
+              <div class="field" data-field="identifier">
+                <label class="field-label" for="identifier">Nome ou e-mail</label>
+                <div class="input-wrap"><span class="field-rune" aria-hidden="true">ᚱ</span><input class="book-input" id="identifier" name="identifier" type="text" autocomplete="username" placeholder="Como devemos chamar você?" required aria-describedby="identifier-error" /></div>
+                <span class="field-error" id="identifier-error">Inscreva seu nome para continuar.</span>
+              </div>
+              <div class="field" data-field="password">
+                <label class="field-label" for="password">Palavra-chave</label>
+                <div class="input-wrap"><span class="field-rune" aria-hidden="true">ᛟ</span><input class="book-input" id="password" name="password" type="password" autocomplete="current-password" placeholder="Qualquer texto abre esta prévia" required aria-describedby="password-error" /><button class="password-toggle" type="button" aria-label="Mostrar senha" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></button></div>
+                <span class="field-error" id="password-error">Escreva qualquer palavra para continuar.</span>
+              </div>
+              <p class="login-message" id="login-message" role="status" aria-live="polite"></p>
+              <button class="login-submit" type="submit">Entrar no salão <span aria-hidden="true">✦</span></button>
+            </form>
+            <div class="book-divider"><span>OU</span></div>
+            <button class="create-account" type="button" data-demo-action="Criar conta">Criar conta <span>· apenas demonstração</span></button>
+            <p class="login-safety">Nada é enviado ou armazenado. O formulário só abre a página pública de demonstração.</p>
+            <a class="direct-entry" href="index.html">Entrar sem preencher <span aria-hidden="true">→</span></a>
+          </div>
+          <span class="book-corner book-corner-top" aria-hidden="true">❧</span><span class="book-corner book-corner-bottom" aria-hidden="true">❧</span>
+        </div>
+      </section>
+      <footer class="login-footer"><span>CRÔNICAS <b>✦</b> UM GRIMÓRIO PARA HISTÓRIAS COMPARTILHADAS</span><span>DESENHADO PARA AVENTURAS, NÃO PARA DESTINOS</span></footer>
+    </main>
+    <div class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
